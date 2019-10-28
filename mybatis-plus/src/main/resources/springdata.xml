@@ -3,6 +3,20 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
+    <!--
+    为什么要配置Spring和Mybatis的整合？
+        因为希望Mybatis可以使用Spring提供的事务代理
+
+    为什么需要配置数据源
+        因为Spring框架只能对它容器内的数据源进行事务代理
+
+    mybatis-spring桥接包
+        mybatis不能直接使用spring容器里的数据源，所有桥接包作用是让mybatis通过spring容器里的数据源进行数据库连接
+        mybatis框架持久层只要接口，通过接口创建动态对象。spring的<context:component-scan>是只能扫描实现类放在spring容器
+
+    -->
+
+
     <!--数据源-->
     <bean name="dataSource" class="org.apache.commons.dbcp2.BasicDataSource" destroy-method="close">
         <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
@@ -10,7 +24,37 @@
         <property name="username" value="root"/>
         <property name="password" value="tiger"/>
     </bean>
-    <!--会话工厂-->
+
+
+    <!--会话工厂SqlSessionFactoryBean-->
+    <bean name="sqlSessionFactory" class="com.baomidou.mybatisplus.extension.spring.MybatisSqlSessionFactoryBean">
+        <!--指定数据源-->
+        <property name="dataSource" ref="dataSource"/>
+
+        <property name="plugins">
+            <array>
+                <!--支持SQL输出-->
+                <bean class="com.baomidou.mybatisplus.extension.plugins.SqlExplainInterceptor"/>
+                <!--物理分页插件-->
+                <bean class="com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor"/>
+            </array>
+        </property>
+
+    </bean>
+
+
     <!--扫描映射文件-->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <!--指定使用的会话工厂-->
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+        <!--指定扫描的包路径-->
+        <property name="basePackage" value="cn.mybatisplus.mapper"/>
+    </bean>
+
+
     <!--事务代理-->
+    <bean name="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <!--指定事务代理的数据源-->
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
 </beans>
