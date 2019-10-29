@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!-- 导入默认样式 -->
+    <link rel="stylesheet" th:href="@{/easyui/themes/default/easyui.css}" href="../static/easyui/themes/default/easyui.css">
+    <link rel="stylesheet" th:href="@{/easyui/themes/icon.css}" href="../static/easyui/themes/icon.css">
+
+    <!-- 因为easyui依赖jQuery框架,所以将JQuery放在最前面 -->
+    <script type="text/javascript" src="../static/easyui/jquery.min.js" th:src="@{/easyui/jquery.min.js}"></script>
+    <script type="text/javascript" src="../static/easyui/jquery.easyui.min.js" th:src="@{/easyui/jquery.easyui.min.js}"></script>
+
+    <!-- 导入local -->
+    <script type="text/javascript" src="../static/easyui/locale/easyui-lang-zh_CN.js" th:src="@{/easyui/locale/easyui-lang-zh_CN.js}"></script>
+
+</head>
+<body class="easyui-layout" data-options="">
+
+<div data-options="region:'north'" style="height: 50px;"></div>
+<div data-options="region:'center'">
+    <div id="tabs_nav" class="easyui-tabs" data-options="fit:true">
+        <div title="首页">欢迎您</div>
+    </div>
+
+</div>
+<div data-options="region:'west',title:' 功能菜单 ',iconCls:'icon-more'" style="width: 200px;">
+    <div id="menu" class="easyui-accordion" data-options="multiple:true,border:false">
+        <div title="系统模块" data-options="iconCls:'icon-remove'">
+            <ul class="easyui-tree">
+                <li><a href="javascript:addTab('用户管理','user_manager.html');">用户管理</a></li>
+                <li><a href="javascript:addTab('角色管理','user_manager.html');">角色管理</a></li>
+                <li><a href="javascript:addTab('权限管理','user_manager.html');">权限管理</a></li>
+                <li><a href="javascript:addTab('数据字典','user_manager.html');">数据字典</a></li>
+            </ul>
+        </div>
+        <div title="业务模块" data-options="iconCls:'icon-remove'">
+            <ul class="easyui-tree">
+                <li><a href="javascript:addTab('班级管理','user_manager.html');">班级管理</a></li>
+                <li><a href="javascript:addTab('学生管理','user_manager.html');">学生管理</a></li>
+                <li><a href="javascript:addTab('成绩管理','user_manager.html');">成绩管理</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+</div>
+<script type="text/javascript">
+    var addTab=function(title,url){
+        //思路：判断传到过来的标题是否存在，存在就选中。不存在就是新增一个新面板
+        var falg=$("#tabs_nav").tabs("exists",title);
+        if(falg==true){
+            $("#tabs_nav").tabs("select",title);
+        }else{
+            $("#tabs_nav").tabs("add",{
+                //选项卡标题
+                title:title,
+                //选中选项卡
+                selected:true,
+                //允许关闭
+                closable:true,
+                //选项卡内容
+                content:"<iframe src="+url+" style='border: 0px;height: 100%;width: 100%' />"
+            });
+        }
+
+    }
+
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
