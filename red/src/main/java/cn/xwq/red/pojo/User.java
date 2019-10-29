@@ -1,6 +1,8 @@
 package cn.xwq.red.pojo;
 
+
 public class User {
+
     private Integer id;
     private String name;
     private String password;
@@ -37,4 +39,12 @@ public class User {
     public void setAge(Integer age) {
         this.age = age;
     }
+
+    public User(Integer id, String name, String password, Integer age) {
+        this.id = id;
+        this.name = name;
+        this.password = password;
+        this.age = age;
+    }
+    public User(){}
 }

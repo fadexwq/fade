@@ -11,7 +11,8 @@ public interface UserMapper {
     @Delete("delete from user where id = #{id}")
     int deleteByPrimaryKey(Long userId);
 
-    @Insert("insert into user(id,name password,age) values(#{id},#{name},#{password},#{age})")
+    @Insert("insert into user (name,password,age)values(#{name},#{password},#{age})")
+    @Options(keyColumn = "id",keyProperty = "id",useGeneratedKeys = true)
     int insert(User record);
 
     @Select("select * from user where id = #{id}")
@@ -20,6 +21,6 @@ public interface UserMapper {
     @Select("select * from user")
     List<User> selectList();
 
-    @Update("")
+    @Update("update user set name = #{name},password=#{password},age = #{age} where id = #{id}")
     int updateByPrimaryKey(User record);
 }
