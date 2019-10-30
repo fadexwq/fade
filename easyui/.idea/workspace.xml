@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23d44a53-4525-4337-b241-302e82b32c9e" name="Default Changelist" comment="" />
+    <list default="true" id="23d44a53-4525-4337-b241-302e82b32c9e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easyui.iml" beforeDir="false" afterPath="$PROJECT_DIR$/easyui.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/xwq/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/xwq/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/xwq/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/xwq/service/AdminService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/user_manager.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/user_manager.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,65 +20,10 @@
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/xwq/Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/xwq/repostory/AdminRepostory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="11" column="55" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/cn/xwq/repostory/AdminRepostoryTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/xwq/service/AdminService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/xwq/pojo/Admin.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -80,62 +31,18 @@
               <caret line="28" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#308#309#0" expanded="true" />
-                <element signature="e#338#339#0" expanded="true" />
-                <element signature="e#382#383#0" expanded="true" />
-                <element signature="e#420#421#0" expanded="true" />
-                <element signature="e#459#460#0" expanded="true" />
-                <element signature="e#494#495#0" expanded="true" />
-                <element signature="e#550#551#0" expanded="true" />
-                <element signature="e#598#599#0" expanded="true" />
-                <element signature="e#634#635#0" expanded="true" />
-                <element signature="e#666#667#0" expanded="true" />
-                <element signature="e#716#717#0" expanded="true" />
+                <element signature="e#728#729#0" expanded="true" />
                 <element signature="e#758#759#0" expanded="true" />
-                <element signature="e#793#794#0" expanded="true" />
-                <element signature="e#824#825#0" expanded="true" />
-                <element signature="e#872#873#0" expanded="true" />
-                <element signature="e#912#913#0" expanded="true" />
-                <element signature="e#952#953#0" expanded="true" />
-                <element signature="e#990#991#0" expanded="true" />
-                <element signature="e#1050#1051#0" expanded="true" />
-                <element signature="e#1104#1105#0" expanded="true" />
-                <element signature="e#1143#1144#0" expanded="true" />
-                <element signature="e#1177#1178#0" expanded="true" />
-                <element signature="e#1232#1233#0" expanded="true" />
-                <element signature="e#1278#1279#0" expanded="true" />
-                <element signature="e#1309#1310#0" expanded="true" />
-                <element signature="e#1338#1339#0" expanded="true" />
-                <element signature="e#1380#1381#0" expanded="true" />
-                <element signature="e#1416#1417#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="69" selection-start-line="6" selection-start-column="69" selection-end-line="6" selection-end-column="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/user_manager.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-230">
-              <caret line="21" column="89" selection-start-line="21" selection-start-column="89" selection-end-line="21" selection-end-column="89" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/xwq/controller/AdminController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+            <state relative-caret-position="171">
+              <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -144,10 +51,32 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/xwq/vo/DataGridResult.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="e#153#154#0" expanded="true" />
+                <element signature="e#181#182#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/user_manager.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="16" column="7" selection-end-line="16" selection-end-column="7" />
+            <state relative-caret-position="95">
+              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -163,9 +92,9 @@
       <list>
         <option value="HTML File" />
         <option value="spring-beans.schema" />
-        <option value="Class" />
         <option value="Interface" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -174,10 +103,13 @@
       <find>,</find>
       <find>，</find>
       <find>user_list</find>
+      <find>width</find>
+      <find>filed</find>
     </findStrings>
     <replaceStrings>
       <replace>,</replace>
       <replace>user_manager</replace>
+      <replace>field</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -187,16 +119,19 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/resources/templates/test.html" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/xwq/controller/AdminController.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/xwq/controller/PageController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/user_manager.html" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/src/main/java/cn/xwq/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/xwq/repostory/AdminRepostory.java" />
         <option value="$PROJECT_DIR$/src/test/java/cn/xwq/repostory/AdminRepostoryTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/xwq/pojo/Admin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/xwq/vo/DataGridResult.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/xwq/service/AdminService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/xwq/service/impl/AdminServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/xwq/controller/AdminController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/user_manager.html" />
       </list>
     </option>
   </component>
@@ -225,11 +160,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="56" />
-    <option name="y" value="81" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="372" />
+    <option name="y" value="122" />
     <option name="width" value="1770" />
-    <option name="height" value="923" />
+    <option name="height" value="1002" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -279,6 +214,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xwq" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easyui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easyui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xwq" type="462c0819:PsiDirectoryNode" />
               <item name="pojo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -298,6 +242,25 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xwq" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easyui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easyui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xwq" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easyui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easyui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xwq" type="462c0819:PsiDirectoryNode" />
+              <item name="vo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="easyui" type="b2602c69:ProjectViewProjectNode" />
@@ -324,8 +287,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -335,6 +298,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
@@ -374,7 +338,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AdminRepostoryTest.findAll">
+  <component name="RunManager" selected="Spring Boot.Application">
     <configuration name="AdminRepostoryTest.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="easyui" />
       <extension name="coverage">
@@ -406,8 +370,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AdminRepostoryTest.findAll" />
         <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="JUnit.AdminRepostoryTest.findAll" />
       </list>
     </recent_temporary>
   </component>
@@ -421,31 +385,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572330308518</updated>
-      <workItem from="1572330315221" duration="15752000" />
+      <workItem from="1572330315221" duration="16282000" />
+      <workItem from="1572398278438" duration="7461000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="AdminRepostoryTest_findAll - 2019.10.29 at 21h 12m 52s.xml">
+      <configuration name="AdminRepostoryTest.findAll" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15752000" />
+    <option name="totallyTimeSpent" value="23743000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="45" y="65" width="1416" height="738" extended-state="0" />
+    <frame x="298" y="98" width="1416" height="801" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Web" side_tool="true" />
       <window_info id="Designer" order="0" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49874055" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49874055" visible="true" weight="0.18694362" />
       <window_info id="JRebel" order="6" sideWeight="0.50125945" side_tool="true" weight="0.25" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Problems" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="JRebel Executor" order="0" weight="0.3256785" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="JRebel Executor" order="0" weight="0.35787672" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32876712" />
       <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
       <window_info anchor="bottom" id="Version Control" order="4" />
@@ -453,12 +420,15 @@
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="9" sideWeight="0.49925816" visible="true" weight="0.47512865" />
+      <window_info active="true" anchor="bottom" id="Run" order="9" sideWeight="0.49925816" visible="true" weight="0.27708977" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="13" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Spring" order="14" />
+      <window_info anchor="bottom" id="Problems" order="15" />
+      <window_info anchor="bottom" id="Java Enterprise" order="16" />
+      <window_info anchor="bottom" id="Messages" order="17" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Database" order="2" />
@@ -468,6 +438,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -484,16 +455,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/xwq/controller/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/xwq/controller/PageController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -504,21 +465,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="16" column="7" selection-end-line="16" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="893">
+          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/xwq/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+        <state relative-caret-position="95">
+          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -529,33 +489,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/user_manager.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/xwq/service/AdminService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-230">
-          <caret line="21" column="89" selection-start-line="21" selection-start-column="89" selection-end-line="21" selection-end-column="89" />
+        <state relative-caret-position="152">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/xwq/Application.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/xwq/service/impl/AdminServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+        <state relative-caret-position="179">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/xwq/service/AdminService.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/xwq/repostory/AdminRepostoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        <state relative-caret-position="350">
+          <caret line="24" column="61" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/xwq/repostory/AdminRepostory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
+        <state relative-caret-position="200">
           <caret line="11" column="55" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -569,42 +532,52 @@
           <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-            <element signature="e#550#551#0" expanded="true" />
-            <element signature="e#598#599#0" expanded="true" />
-            <element signature="e#634#635#0" expanded="true" />
-            <element signature="e#666#667#0" expanded="true" />
-            <element signature="e#716#717#0" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
             <element signature="e#758#759#0" expanded="true" />
-            <element signature="e#793#794#0" expanded="true" />
-            <element signature="e#824#825#0" expanded="true" />
-            <element signature="e#872#873#0" expanded="true" />
-            <element signature="e#912#913#0" expanded="true" />
-            <element signature="e#952#953#0" expanded="true" />
-            <element signature="e#990#991#0" expanded="true" />
-            <element signature="e#1050#1051#0" expanded="true" />
-            <element signature="e#1104#1105#0" expanded="true" />
-            <element signature="e#1143#1144#0" expanded="true" />
-            <element signature="e#1177#1178#0" expanded="true" />
-            <element signature="e#1232#1233#0" expanded="true" />
-            <element signature="e#1278#1279#0" expanded="true" />
-            <element signature="e#1309#1310#0" expanded="true" />
-            <element signature="e#1338#1339#0" expanded="true" />
-            <element signature="e#1380#1381#0" expanded="true" />
-            <element signature="e#1416#1417#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cn/xwq/repostory/AdminRepostoryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/easyui/jquery.easyui.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        <state relative-caret-position="19">
+          <caret line="11811" selection-start-line="11811" selection-end-line="11811" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/user_manager.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/xwq/vo/DataGridResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#153#154#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/xwq/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

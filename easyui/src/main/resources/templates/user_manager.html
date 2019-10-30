@@ -6,6 +6,7 @@
     <!-- 导入默认样式 -->
     <link rel="stylesheet" th:href="@{/easyui/themes/default/easyui.css}" href="../static/easyui/themes/default/easyui.css">
     <link rel="stylesheet" th:href="@{/easyui/themes/icon.css}" href="../static/easyui/themes/icon.css">
+    <link rel="icon" th:href="@{favicon.ico}" href="favicon.ico" type="image/x-icon" />
 
     <!-- 因为easyui依赖jQuery框架,所以将JQuery放在最前面 -->
     <script type="text/javascript" src="../static/easyui/jquery.min.js" th:src="@{/easyui/jquery.min.js}"></script>
@@ -15,33 +16,43 @@
     <script type="text/javascript" src="../static/easyui/locale/easyui-lang-zh_CN.js" th:src="@{/easyui/locale/easyui-lang-zh_CN.js}"></script>
 
 </head>
+
 <body>
-<div id="toolbar">
-    <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-add',plain:true">增加</a>
+<div id="tb">
+    <a href="javascript:showUserAddWin" class="easyui-linkbutton" data-options="iconCls:'icon-add',plain:true">增加</a>
     <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-remove',plain:true">删除</a>
     <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-edit',plain:true">编辑</a>
 </div>
 
-<table id="user_list"></table>
-</body>
-<script type="text/javascript">
-    $("#user_list").datagrid({
+<table id="userDataGrid">
+    <thead>
+    <tr>
+        <th data-options="field:'ck',checkbox:true"></th>
+        <th data-options="field:'adminId',width:100">编号</th>
+        <th data-options="field:'adminAccount',width:100">账号</th>
+        <th data-options="field:'adminName',width:100,align:'right'">姓名</th>
+        <th data-options="field:'adminPwd',width:100,align:'right'">密码</th>
+        <th data-options="field:'adminCreateDate',width:100,align:'right'">创建日期</th>
+        <th data-options="field:'adminStatus',width:100,align:'right'">状态</th>
+        <th data-options="field:'roleId',width:100,align:'right'">角色</th>
+    </tr>
+    </thead>
+</table>
 
-        columns:[[
-            {field:'ck',checkbox:true},
-            {field:'ADMIN_ID',title:'用户编号',width:100,align:'center'},
-            {field:'ADMIN_ACCOUNT',title:'账户',width:100,align:'center'},
-            {field:'ADMIN_NAME',title:'姓名',width:100,align:'center'},
-            {field:'ADMIN_PWD',title:'密码',width:100,align:'center'},
-            {field:'ADMIN_CREATE_DATE',title:'创建日期',width:100,align:'center'},
-            {field:'ADMIN_STATUS',title:'状态',width:100,align:'center'},
-            {field:'ROLE_ID',title:'角色编号',width:100,align:'center'}
-        ]],
-        fitColumns:true,
-        rownumbers:true,
+<!--<div id="winUserAdd" class="easyui-window" style="width: 600px;height: 400px" data-options="modal:true,close:true">-->
+<!--    Window Content-->
+<!--</div>-->
+<script>
+    $("#userDataGrid").datagrid({
+        url:'[[@{/admin/list}]]',
+        toolbar:'#tb',
         pagination:true,
-        toolbar:'#toolbar',
-        url:'${pageContext.request.contextPath }/admin/adminList'
+        fit:true
     });
+
+    var showUserAddWin=function () {
+        $("#winUserAdd").window("open");
+    }
 </script>
+</body>
 </html>
